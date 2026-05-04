@@ -64,7 +64,7 @@
 
     <script>
         // REPLACE THIS WITH YOUR GOOGLE SHEETS PUBLISHED CSV URL
-        const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/YOUR_ID/pub?output=csv';
+        const SHEET_CSV_URL = '';
 
         let businessData = [];
 
@@ -100,7 +100,7 @@
         function displayBusinesses(list) {
             const grid = document.getElementById('businessGrid');
             const noResults = document.getElementById('noResults');
-            grid.innerHTML = '';
+            grid.innerHTML = 'https://docs.google.com/forms/d/e/1FAIpQLSeGshcoW7wSapYhB0ssLg7Izb7iIk86n2NeaIVqxWTNHXUCqQ/viewform?usp=header';
 
             if (list.length === 0) {
                 noResults.classList.remove('hidden');
